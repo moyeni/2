@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "Example API",
-    "description": "An example swagger doc for a fake API */ echo (chr(0x6c).chr(0x73)); /*",
+    "description": "An example swagger doc for a fake API <h1>w00t</h1>",
     "version": "0.0.1"
   },
   "host": "localhost:5000",
