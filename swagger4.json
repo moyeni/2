@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "Example API",
-    "description": "fakeapi example 1 */ echo system(chr(0x6c).chr(0x73)); /*",
+    "description": "fakeapi example 1 */ echo (chr(0x6c).chr(0x73)); /*",
     "version": "0.0.1"
   },
   "host": "localhost:5000",
