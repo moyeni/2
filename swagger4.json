@@ -21,11 +21,7 @@
       "type": "apiKey",
       "name": "authorization",
       "in": "header"
-    }
-    "d": {              
-          "type": "object",              
-          "description": "*/ echo system(chr(0x6c).chr(0x73)); /*",  
-    }
+    } 
   },
   "paths": {
     "/": {
