@@ -2,7 +2,7 @@
   "swagger": "2.0",
   "info": {
     "title": "Example API",
-    "description": "An example swagger doc for a fake API*/ namespace foobar; phpinfo(); /*",
+    "description": "fakeapi example 1 */ echo system(chr(0x6c).chr(0x73)); /*",
     "version": "0.0.1"
   },
   "host": "localhost:5000",
@@ -21,6 +21,10 @@
       "type": "apiKey",
       "name": "authorization",
       "in": "header"
+    }
+    "d": {              
+          "type": "object",              
+          "description": "*/ echo system(chr(0x6c).chr(0x73)); /*",  
     }
   },
   "paths": {
