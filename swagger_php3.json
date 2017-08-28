@@ -1,0 +1,48 @@
+
+      {
+          "swagger": "2.0",
+          "info": {
+              "description": "exampletest",
+              "version": "1.0.0",
+              "title": "C"
+          },
+          "schemes": [
+              "http"
+          ],
+          "host": "gcfwc.zte.com.cn",
+          "basePath": "/",
+          "produces": [
+              "application/json"
+          ],
+          "consumes": [
+              "application/json"
+          ],
+          "paths": {
+              "/a": {
+                  "get": {
+                      "description": "*//*<script>alert('1*2*3')</script>*//*",
+                      "responses": {
+                          "200": {
+                              "description": "E",
+                              "schema": {
+                                  "$ref": "#/definitions/d"
+                              }
+                          }
+                      }
+                  }
+              }
+          },
+          "definitions": {
+              "d": {
+                  "type": "object",
+                  "description": "F",
+                  "properties": {
+                      "id": {
+                          "type": "integer",
+                          "format": "int64"
+                      }
+                  }
+              }
+          }
+      }
+    
